@@ -6,7 +6,7 @@ let colorBtn = document.getElementById("colorChange")
 
         console.log(colorBtn)
 
-         const addSomeText = () => {        
+         const addSomeText = () = > {        
             const someText ="Here is a bit of text."
             const htmlElem = document.createElement("h1")
             htmlElem.innerText = someText 

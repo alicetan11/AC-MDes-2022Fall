@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<script src="script.js"> </script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,
+        300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+        <title>Buttons doing things </title>
+    
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="https://popicon.life/wp-content/uploads/2020/12/petco_original_logo.jpg" alt="Petco logo">
+            <nav>
+                <ul>
+                    <li style="float:right"><a href="#">New&Trending </a></li>
+                    <li style="float:right"><a href="#">Sale</a></li>
+                    <li style="float:right"><a href="#">Pharmacy </a></li>
+                    <li style="float:right"><a href="#">Dog </a></li>
+                    <li style="float:right" class="rightli"><a href="#">Cat </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-container">
+            <div class="button-container">
+                <button role ="button" onclick="showDog()"> Dog </button>
+                <button role ="button" onclick="showCat()"> Cat</button>
+                <button role ="button" onclick="showFish()">Fish</button>
+                <button role ="button" onclick="showBird()">Bird</button>
+            </div>
+            <div class="image-platform">
+                <img id="image-container"></img>
+            </div>
+        </div>
+
+    </body>
+</html>
