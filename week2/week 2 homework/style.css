@@ -4,137 +4,40 @@
     box-sizing: border-box;
   }
 
-.fall1 {
-    background-color:antiquewhite;
-    color:brown;
+@media (min-width:300px){
+body {
+    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    line-height:1.6em;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}/* for the link */
-
-a:hover {
-    color: white;
-}
-
-a:active{
-    color:green;
-}
-
-nav ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    
-}
-nav li{
-    padding: 10px;
-    font-family:'Open Sans', Arial, sans-serif;
-    
-
-}
-
-.fall1 h1{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top center;
     text-align: center;
-    font-size: 25px;
-}
-
-.fall1 video {
-    margin-left: 50vw;
-    transform: translate(-50%);
-}
-
-.fall1 p{
-    text-align:center;
-    font: 10px;
-}
-
-
-.fall2 {
-    background-color:cadetblue;
+    font-size: 1.25em;
     color: white;
-    font-family:  Tahoma, Helvetica, Arial;
-    font-weight: normal;
-    line-height: 1em;
-    font-style: italic;
-    text-transform:uppercase;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right 20px;
-    padding-top: 10px;
+}}
 
-}
-.fall2 li{
-     padding-bottom:10px;
-     border-bottom:dotted 1px #333;
-     font-size: 10px;
-     
-    }
-
+@media (min-width: 600px){
+body {
+    background-color: yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
-.fall2 ul{
-    justify-content: center;
-}
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+}}
 
-.fall2 video{
-    margin-top: 1em;
-    margin-left: 50vw;
-    transform: translate(-50%);
+@media (min-width: 900px){
+body {
+    background-color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
    
-}
-
-.fall2 h1 {
-    font-size: medium;
-    letter-spacing: 0.2em;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-.fall2 p{
-    font-size:xx-small;
-}
-
-
-
-.fall3 {
-    background-color:#D2691E;
-    color: #FFE4C4;
-    font-family:  Inter, Arial,Tahoma;
-    font-weight: bold;
-    line-height: 1em;
-    font-style: normal;
-    text-transform:normal;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right 20px;
-    padding-top: 10px;
-    
-}
-
-.fall3 ul{
-    justify-content: end;
-    padding-bottom: 20px;
-}
-
-.fall3 video  {
-    padding-top: 80px;
-    margin-left: 5vw;
-    transform: auto;
-}
-
-
-.fall3 h1{
-    padding-top: 50px;
-    padding-bottom: 30px;
-
-}
-.fall3 p{
-    border-left: 8px solid #FFE4C4;
-}
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+}}
