@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(pumpkin.jpeg);
+    background-repeat: repeat;
+    background-size: 30%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    color:yellow;
+    font-family: Silkscreen, Arial, Helvetica;
+  }
+  canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    position: center;
+  }
+  
