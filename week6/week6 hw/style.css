@@ -1,11 +1,20 @@
+
+a:hover {
+    color: red;
+}
+
+a:active{
+    color: red;
+}
+
 body {
-    margin: 0;
+    margin: 10%;
     padding: 0;
     background-color: black;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-    font-family: Silkscreen, Arial, Helvetica;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica;
   }
   canvas {
     display: block;
@@ -15,4 +24,5 @@ body {
     margin-bottom: 10%;
     position: center;
   }
+  
   
