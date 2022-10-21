@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Silkscreen, Arial, Helvetica;
+  }
+  canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    margin-bottom: 10%;
+    position: center;
+  }
+  
